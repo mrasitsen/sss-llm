@@ -6,7 +6,7 @@ SSS LLM is a simple command-line tool for running and managing large language mo
 
 Clone the repository and navigate to the project folder:
 
-    git clone https://your-repository-url/sss-llm.git
+    git clone https://github.com/mrasitsen/sss-llm
     cd sss-llm
 
 Run the build.sh script to copy llm.sh to /usr/local/bin:
