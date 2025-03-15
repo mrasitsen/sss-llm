@@ -15,7 +15,7 @@ Run the build.sh script to copy llm.sh to /usr/local/bin:
 
 ## Usage
 
-Start the server with the default model:
+Start the server with the default model (ggml-org/Qwen2.5-Coder-1.5B-Instruct-Q8_0-GGUF):
 
     llm up
 
