@@ -1,8 +1,8 @@
-#SSS LLM (Super Simple Stupid LLM)
+# SSS LLM (Super Simple Stupid LLM)
 
 SSS LLM is a simple command-line tool for running and managing large language models with llama-cpp. It allows you to easily specify and start a language model server with minimal setup. It is super simple and stupid. It aims to be like that. 
 
-##Installation
+## Installation
 
 Clone the repository and navigate to the project folder:
 
@@ -13,7 +13,7 @@ Run the build.sh script to copy llm.sh to /usr/local/bin:
 
     sudo bash build.sh
 
-##Usage
+## Usage
 
 Start the server with the default model:
 
@@ -28,12 +28,12 @@ Get-Set a new default model:
     llm model                           // GET
     llm model="new-default-model"       // SET    
 
-##Configuration
+## Configuration
 
 The default model is stored in ~/Library/Preferences/llm.config. You can change the default model using:
 
     llm model="new-default-model"
 
-##License
+## License
 
 MIT License
